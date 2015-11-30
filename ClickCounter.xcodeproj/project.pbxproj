@@ -14,6 +14,7 @@
 		0E0695371C083EBB00A8D50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0695351C083EBB00A8D50B /* LaunchScreen.storyboard */; };
 		0E0695421C083EBB00A8D50B /* ClickCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0695411C083EBB00A8D50B /* ClickCounterTests.swift */; };
 		0E06954D1C083EBB00A8D50B /* ClickCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E06954C1C083EBB00A8D50B /* ClickCounterUITests.swift */; };
+		0E06955B1C0C218D00A8D50B /* ViewControllerPhotoPopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E06955A1C0C218D00A8D50B /* ViewControllerPhotoPopUP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0E0695481C083EBB00A8D50B /* ClickCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E06954C1C083EBB00A8D50B /* ClickCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickCounterUITests.swift; sourceTree = "<group>"; };
 		0E06954E1C083EBB00A8D50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E06955A1C0C218D00A8D50B /* ViewControllerPhotoPopUP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPhotoPopUP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0E0695201C083EBB00A8D50B = {
 			isa = PBXGroup;
 			children = (
+				0E06955A1C0C218D00A8D50B /* ViewControllerPhotoPopUP.swift */,
 				0E06952B1C083EBB00A8D50B /* ClickCounter */,
 				0E0695401C083EBB00A8D50B /* ClickCounterTests */,
 				0E06954B1C083EBB00A8D50B /* ClickCounterUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E06952F1C083EBB00A8D50B /* ViewController.swift in Sources */,
+				0E06955B1C0C218D00A8D50B /* ViewControllerPhotoPopUP.swift in Sources */,
 				0E06952D1C083EBB00A8D50B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				0E0695531C083EBB00A8D50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E0695541C083EBB00A8D50B /* Build configuration list for PBXNativeTarget "ClickCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				0E0695561C083EBB00A8D50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E0695571C083EBB00A8D50B /* Build configuration list for PBXNativeTarget "ClickCounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				0E0695591C083EBB00A8D50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
