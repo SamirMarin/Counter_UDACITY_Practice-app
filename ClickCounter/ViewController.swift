@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     var count = 0
     var label:UILabel!
     var labelRandom:UILabel!
+    
+    //using a story board for additional funcitons
+    
+    @IBOutlet weak var colourView: UIView!
+    @IBOutlet weak var redSlider: UISlider!
+    @IBOutlet weak var greenSlider: UISlider!
+    @IBOutlet weak var blueSlider: UISlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,6 +99,16 @@ class ViewController: UIViewController {
         }
 
     }
+    
+    @IBAction func setColour(sender: UISlider) {
+        let r: CGFloat = CGFloat(redSlider.value)
+        let b: CGFloat = CGFloat(blueSlider.value)
+        let g: CGFloat = CGFloat(greenSlider.value)
+        
+        colourView.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
+    }
+    //adding action for slider with the story board..
+    
 
 
 }
